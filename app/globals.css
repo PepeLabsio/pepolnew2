@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*=============================================
+=            TYPGRAPHY            =
+=============================================*/
+
+@layer base {
+  .ty-outline {
+    @apply font-medium text-[8.19px] leading-[120%];
+  }
+  .ty-subtext {
+    @apply font-medium text-[10.24px] leading-[120%];
+  }
+  .ty-subtitle {
+    @apply font-normal text-[12.80px] leading-[120%];
+  }
+  .ty-descriptions {
+    @apply font-normal text-[16px] leading-[120%];
+  }
+  .ty-title {
+    @apply text-[16px] font-normal leading-[120%];
+  }
+  .ty-subheading {
+    @apply text-[20px] font-normal leading-[120%];
+  }
+  .ty-h6 {
+    @apply text-[20px] font-normal leading-[120%];
+  }
+  .ty-h5 {
+    @apply text-[25px] font-normal leading-[120%];
+  }
+  .ty-h4 {
+    @apply text-[31.25px] font-normal leading-[120%];
+  }
+  .ty-h3 {
+    @apply text-[39.06px] font-normal leading-[120%];
+  }
+  .ty-h2 {
+    @apply text-[48.83px] font-normal leading-[120%];
+  }
+  .ty-h1 {
+    @apply text-[61.04px] font-normal leading-[120%];
+  }
+  .ty-display {
+    @apply text-[96px] font-normal leading-[120%];
+  }
+
+  body {
+    @apply bg-[#3f267a];
+  }
+
+  span {
+    word-wrap: break-word;
+    word-break: break-word;
+    font-style: normal;
+    border-radius: 15px;
+    justify-content: center;
+    justify-items: center;
+    text-decoration: none;
+    animation: all 0.5s ease;
+    transition: all 0.5s ease;
+    min-width: 55px;
+    display: flex;
+  }
+}
